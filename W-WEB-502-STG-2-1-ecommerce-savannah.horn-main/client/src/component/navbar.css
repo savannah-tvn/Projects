@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Playfair+Display&display=swap%27');
+
+.navbar {
+    background-color: black !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+  }
+  
+  .container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+  }
+  
+  .navbar-center {
+    display: flex !important;
+    align-items: center !important;
+    background-color: black;
+  }
+  
+  .navbar a {
+    color: white !important;
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
+  
+  .navbar-right form {
+    margin: 0 10px;
+  }
+  
+  .navbar-right input {
+    border: none;
+    padding: 2px 15px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    width: 200px;
+  }
+  
+  .navbar-right img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-right img:hover {
+    cursor: pointer;
+    width: 44px;
+  }
+  

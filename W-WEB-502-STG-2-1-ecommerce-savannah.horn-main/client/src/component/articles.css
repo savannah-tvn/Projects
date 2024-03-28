@@ -1,0 +1,155 @@
+:root {
+    --background-color: #f4f4f4;
+    --box-shadow-color: grey;
+  }
+  
+  * 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+  }
+  .Home {
+    background-color: #e7e7e7;
+  }
+  .container_product
+  {
+    max-width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .img_article {
+    max-width: 100%;
+  }
+  
+  .img-article img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .details {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .details li {
+    font-weight: bold;
+    list-style-type: none;
+  }
+  
+  .img {
+    margin-top: 2rem;
+    max-width: 100%;
+    box-shadow: 5px 5px 5px var(--box-shadow-color);
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .btn {
+    font-size: smaller;
+    padding: 0.5em 1em;
+  }
+  
+  .avis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+  
+  .background {
+    width: 100%;
+    max-width: 50rem;
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  
+  #cb {
+ width: 12rem;
+  }
+  
+  .entete {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile {
+    margin-right: 2rem;
+  }
+  
+  .name {
+    margin-right: 1rem;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title h1 {
+    margin-right: 1rem;
+  }
+  
+  .title_product {
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  ul li {
+    line-height: 2.5rem;
+  }
+  
+  .text {
+    display: flex;
+    align-items: center;
+  }
+
+ .important {
+    font-size: normal;
+    font-weight: lighter;
+    font-family: 'Manrope';
+  }
+.button 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+  .title img {
+    padding-top: 1.2rem;
+  }
+ 
+  @media only screen and (max-width: 768px) 
+  {
+    .container_product {
+      grid-template-columns: 1fr;  
+    }
+  
+    .details {
+      flex-direction: column;  
+    }
+  
+    .img-article img {
+      max-width: 100%;  
+    }
+  }

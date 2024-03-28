@@ -1,0 +1,25 @@
+img 
+{
+    max-width: 60%;
+    float: left;
+}
+
+.shoppingCartDescription{
+    border-left: 1px solid black;
+}
+
+.shoppingCartXButton{
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: lightgrey;
+}
+
+.shoppingCartXButton:hover{
+    color: rgb(208, 43, 43);
+}
+
+.barred{
+    color: rgb(183, 180, 178);
+    text-decoration: line-through;
+}

@@ -1,0 +1,21 @@
+.slick-prev,
+.slick-next
+{
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 18px;
+}
+
+.slick-slide img {
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.slick-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Playfair+Display&display=swap%27');
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+    padding-bottom: 20px;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin-top: 45px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .footer-items {
+    margin-top: 42px;
+    text-align: center;
+    margin-right: auto; 
+  }
+  
+  .footer-items img {
+    margin-left: auto; 
+    margin-top: 0;
+  }

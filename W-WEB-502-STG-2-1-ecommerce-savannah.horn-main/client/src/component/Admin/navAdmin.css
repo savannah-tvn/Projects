@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&family=Playfair+Display&display=swap%27');
+
+.navbar {
+    background-color: black !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .navbar-center{
+    justify-content: center;
+  }
+  .container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px; 
+  }
+  
+  .navbar a {
+    text-align: center;
+    color: white !important;
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover {
+    font-size: 20px;
+    transition: ease-in-out 1.5s;
+    cursor: pointer;
+  }
+  
