@@ -18,8 +18,8 @@ const TodoForm = ({ onAdd }) => {
     return (
         <div>
             <input type="text" value={task} onChange={ (e) => 
-                setTask(e.target.value)} />
-            <button onClick={addTodo}>Add Todo</button>
+                setTask(e.target.value)} /><br></br>
+            <button style={{marginTop: 20}} onClick={addTodo}>Add Todo</button>
         </div>
     );
 };
