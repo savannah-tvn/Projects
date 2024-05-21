@@ -1,0 +1,82 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+}
+h1 {
+  color: #ffb7d0;
+  font-family: 'Marker Felt', sans-serif;
+  text-align: center;
+
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 2px solid #ffb7d0;
+  border-radius: 10px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background-color: #ffb7d0;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ffb7d0;
+}
+
+input[type="checkbox"]:checked::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.form-input {
+  text-align: center;
+
+}
+.completed  {
+  color: #ff85b0;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffb7d0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #ff85b0;
+}
