@@ -21,6 +21,7 @@ ul {
 }
 li {
   background-color: #fff;
+  color: #ff85b0;
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
@@ -67,6 +68,25 @@ input[type="checkbox"]:checked::before {
   color: #ff85b0;
   text-decoration: line-through;
   font-weight: bold;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item label {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.icon-container {
+  display: flex;
+  gap: 5px;
+}
+
+button:focus {
+  outline: none;
 }
 button {
   padding: 10px;

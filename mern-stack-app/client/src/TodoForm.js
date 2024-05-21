@@ -7,7 +7,7 @@ const TodoForm = ({ onAdd }) => {
     const addTodo = async () => {
         try {
             const response = await
-            axios.post('http://localhost:3000/todos', { task });
+            axios.post('http://localhost:3001/todos', { task });
             onAdd(response.data);
             setTask('');
         } catch (error) {
